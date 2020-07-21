@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+}
+
+h1 {
+    font-size: 1.1em;
+}
+
+#mainbody {
+    background-color: black;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calculation {
+    background-color: rgb(61, 8, 8);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    font-family: monospace;
+    font-size: 5em;
+    letter-spacing: 0.5em;
+    text-align: right;
+}
+
+#label {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3em;
+    padding: 0.2em;
+    text-align: right;
+}
+
+.keyboard {
+    background-color: grey;
+    height: 125px;
+    text-align: right;
+}
+
+#input-number, #input-number-small {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    text-align: center;
+    border: solid 1px white;
+    border-radius: 3px;
+    color: white;
+    font-family: monospace;
+    font-size: 5em;
+    cursor: pointer;
+    width: 125px;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#input-number-small {
+    font-size: 3em;  
+}
